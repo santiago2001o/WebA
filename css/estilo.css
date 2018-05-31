@@ -1,0 +1,112 @@
+@font-face{
+	font-family: Roboto-Medium;
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+	font-family: Roboto-Thin;
+	src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+.contenido{
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+body{
+	margin: 0;
+}
+header{
+	background-color: #FFE6EB;
+	font-family: Roboto-Regular;
+	font-size: 18px;
+	padding: 20px;
+	padding-bottom: 40px;
+}
+.izq{
+	float: left;
+}
+.der{
+	float: right;
+}
+.izq a{
+	text-decoration: none;
+	color: #404B69;
+	margin-right: 30px;
+}
+.der a{
+	margin-left: 30px;
+}
+.nombre{
+	font-size: 24px;
+}
+h1{
+font-size: 48px;
+color: #232931;
+}
+.img1{
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+	float: right;
+	margin-left: 20px;
+	border-radius: 25px;
+}
+h2{
+	font-family: Roboto-Medium;
+	color: #9F609C;
+	font-size: 49px;
+}
+h3{
+	font-family: Roboto-Medium;
+	font-size: 30px;
+	color: #404B69;
+	}
+p{
+	font-family: roboto-thin;
+	font-size: 22px;
+	color: #404B69;
+    text-align: justify;
+}
+.imgss{
+	max-width: 150px;
+	width: 100px;
+	margin: 15px;
+	height: auto;
+}
+.imgs{
+	max-width: 150px;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-right: 12px;
+}
+figure{
+	margin-bottom: 100px;
+}
+.fotos{
+	max-width: 250px;
+	width: 100%
+	height: auto;
+	margin: 6px;
+}
+.footer{
+	max-width: 100%;
+	height: auto;
+}
+/*#scrollUp{
+	bottom: 20px;
+	right: 20px;
+	padding: 10px 20px;
+	background: #555;
+	color: #fff;
+}*/
+#scrollUp{
+	bottom: 20px;
+	right: 20px;
+	width: 40px;
+	height: 48px;
+	background-image: url(../img/arriba.png);
+}
